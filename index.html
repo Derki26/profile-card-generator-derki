@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/072e5df971.js"
+      crossorigin="anonymous"
+      
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+  </head>
+  <body>
+    
+    <ul class="containers">
+
+      <li>
+        <li>
+            <label>Include Cover</label>
+            <select class="data" for="includeCover">
+              <option value="true">True</option>
+              <option value="false">False</option>
+            </select>
+        </li>
+
+        <li>
+          <label>Name</label>
+          <input class="data" for="name" type="text"  />
+        </li>
+
+        <li>
+          <label>Last Name</label>
+          <input class="data" for="lastname" type="text" />
+        </li>
+        <li>
+          <label>S.M position</label>
+          <select  class="data" for="socialMediaPosition">
+            <option value="position-left">Left</option>
+            <option value="position-right">Right</option>
+          </select>
+        </li>
+        <li>
+          <label>Twitter</label>
+          <input class="data" for="twitter" type="text" />
+        </li>
+        <li>
+          <label>Github</label>
+          <input class="data" for="github" type="text"  />
+        </li>
+        <li>
+          <label>LinkedIn</label>
+          <input class="data" for="linkedin" type="text"  />
+        </li>
+        <li>
+          <label>Instagram</label>
+          <input class="data" for="instagram" type="text" />
+        </li>
+        <li>
+          <label>Role</label>
+          <select class="data" for="role">
+            <option value="">null</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="IT Manager">IT Manager</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Systems Analyst">Systems Analyst</option>  
+            <option value="Information Security ">Information Security </option>
+            <option value="Computer support Specialist">Computer support Specialist</option>
+            <option value="Database Administrator">Database Administrator</option>
+          </select>
+        </li>
+        <li>
+          <label>City</label>
+          <select class="data" for="city">
+            <option value="">null</option>
+            <option value="Miami">Miami</option>
+            <option value="New york">New York</option>
+            <option value="Chicago">Chicago</option>
+          </select>
+        </li>
+        <li>
+          <label>Contry</label>
+          <select class="data" for="country">
+            <option value="">null</option>
+            <option value="USA">United States</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Cuba">Cuba</option>
+          </select>
+        </li>
+      </li>
+    </ul>
+
+    
+    <div id="card_content">
+    
+    </div>
+
+    
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

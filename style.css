@@ -1,0 +1,120 @@
+@import url('https://fonts.cdnfonts.com/css/apple-chancery');
+
+
+body {
+  padding: 0;
+  height: 100vh;
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.containers { 
+  background-repeat: no-repeat;
+  width: 80%; 
+  margin: 0 auto; 
+  padding-left: 400px;
+  
+}
+.containers li {
+  display: inline-block;
+  max-width: 80px;
+  padding: 3px;
+}
+.containers li label {
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+  
+}
+.containers li input {
+  width: 100%;
+}
+.containers li select {
+  width: 100%;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+
+}
+.card .cover {
+  height: 160px;
+  overflow: hidden;
+}
+.card .cover img {
+  width: 100%;
+  height: auto;
+  min-height: 160px;
+  border-radius: 4px 4px 0 0;
+}
+.card .photo {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 0 -55px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+.card h1,
+.card h2,
+.card h3 {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: 'Bradley Hand', cursive;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+.card h1 {
+  margin: 60px 0 20px;
+  font-size: 26px;
+  font-family: 'Bradley Hand', cursive;
+  color: darkblue;
+}
+.card h3 {
+  font-size: 16px;
+}
+.card ul {
+  position: absolute;
+  top: 20px;
+  padding: 0;
+  background: lightseagreen;
+}
+.card ul.position-left {
+  left: -26px;
+}
+.card ul.position-right {
+  right: -27px;
+}
+.card ul li {
+  list-style: none;
+}
+.card ul li a {
+  display: block;
+  padding: 5px 6px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #2cd5ca;
+  transition: background-color 0.3s;
+}
+.card ul li:hover > a {
+  background-color: #2cd5ca;
+}
+.card ul li:first-child > a {
+  border-radius: 0 3px 0 0;
+}
+.card ul li:last-child > a {
+  border: none;
+  border-radius: 0 0 3px 0;
+}
+
